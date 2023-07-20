@@ -70,6 +70,8 @@ body > * { padding: 0 15%; }
     color: var(--foreground-hero-main);
     font-size: var(--font-hero-main);
     font-weight: 900;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-subtext {
