@@ -49,7 +49,12 @@ body > * { padding: 0 15%; }
 
 .hero-background { background-color: var(--background-hero); }
 
-.hero { display: flex; }
+.hero {
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+    display: flex;
+    gap: 2rem;
+}
 
 .hero > * { flex: 1; }
 
