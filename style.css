@@ -7,6 +7,7 @@
     --foreground-hero-main: #f9faf8;
     --foreground-hero-secondary: #e5e7eb;
     --foreground-placeholder: #edeeef;
+    --foreground-image-text: #4b5563;
     --background-hero: #1f2937;
     --background-button: #3882f6;
     --background-placeholder: #6d747d;
@@ -122,4 +123,10 @@ body > * { padding: 0 14.5%; }
     height: 10rem;
     border: 0.25rem solid var(--background-button);
     border-radius: 1rem;
+}
+
+.image-text {
+    text-align: center;
+    font-size: 1.15rem;
+    color: var(--foreground-image-text);
 }
