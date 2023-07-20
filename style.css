@@ -47,6 +47,10 @@ body > * { padding: 0 15%; }
 
 .hero-background { background-color: var(--background-hero); }
 
+.hero { display: flex; }
+
+.hero > * { flex: auto; }
+
 .hero-header {
     color: var(--foreground-hero-main);
     font-size: var(--font-hero-main);
