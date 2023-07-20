@@ -5,8 +5,9 @@
 
     --foreground-header-logo: #f9faf8;
     --foreground-hero-main: #f9faf8;
-    --foreground-hero-secondary: #f9faf8;
+    --foreground-hero-secondary: #e5e7eb;
     --background-hero: #1f2937;
+    --background-button: #3882f6;
     --font-hero-logo: 1.5rem;
     --font-hero-main: 3rem;
     --font-hero-secondary: 1.125rem;
@@ -44,4 +45,13 @@ body > * { padding: 0 15%; }
     font-size: var(--font-hero-secondary);
 }
 
-.header { background-color: var(--background-hero); }
+.hero-background { background-color: var(--background-hero); }
+
+.hero-header { color: var(--foreground-hero-main); }
+
+.hero-subtext { color: var(--foreground-hero-secondary); }
+
+.hero-body > button {
+    color: var(--foreground-hero-main);
+    background-color: var(--background-button);
+}
