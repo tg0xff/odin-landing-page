@@ -14,3 +14,7 @@ a { text-decoration: none; }
 
 .header,
 .header-links { display: flex; }
+
+.logo { flex: auto; }
+
+.header-links { gap: 1.5rem; }
