@@ -47,11 +47,20 @@ body > * { padding: 0 15%; }
 
 .hero-background { background-color: var(--background-hero); }
 
-.hero-header { color: var(--foreground-hero-main); }
+.hero-header {
+    color: var(--foreground-hero-main);
+    font-size: var(--font-hero-main);
+    font-weight: 900;
+}
 
-.hero-subtext { color: var(--foreground-hero-secondary); }
+.hero-subtext {
+    color: var(--foreground-hero-secondary);
+    font-size: var(--font-hero-secondary);
+}
 
 .hero-body > button {
     color: var(--foreground-hero-main);
     background-color: var(--background-button);
+    font-size: var(--font-hero-secondary);
+    font-weight: 700;
 }
