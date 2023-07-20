@@ -34,10 +34,13 @@ body { margin: 0; }
 
 body > * { padding: 0 14.5%; }
 
-.header {
+.hero-background {
+    background-color: var(--background-hero);
     padding-top: 1rem;
-    padding-bottom: 7.5rem;
+    padding-bottom: 9rem;
 }
+
+.header { margin-bottom: 7.5rem; }
 
 .header,
 .header-links {
@@ -59,21 +62,9 @@ body > * { padding: 0 14.5%; }
     font-size: var(--font-hero-secondary);
 }
 
-.hero-background { background-color: var(--background-hero); }
-
 .hero {
     display: flex;
-    padding-bottom: 9rem;
-}
-
-.hero-image {
-    flex: 21;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--foreground-placeholder);
-    background-color: var(--background-placeholder);
-    font-size: var(--font-hero-secondary);
+    gap: 2rem;
 }
 
 .hero-header {
@@ -88,10 +79,7 @@ body > * { padding: 0 14.5%; }
     margin-bottom: 0.8rem;
 }
 
-.hero-body {
-    flex: 19;
-    padding-right: 3rem;
-}
+.hero-body { flex: 19; }
 
 .hero-body > button {
     color: var(--foreground-hero-main);
@@ -101,6 +89,16 @@ body > * { padding: 0 14.5%; }
     border: none;
     border-radius: 0.5rem;
     padding: 0.6rem 2rem 0.5rem;
+}
+
+.hero-image {
+    flex: 21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--foreground-placeholder);
+    background-color: var(--background-placeholder);
+    font-size: var(--font-hero-secondary);
 }
 
 .images {
