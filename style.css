@@ -37,7 +37,7 @@ body > * { padding: 0 15%; }
     flex: auto;
     color: var(--foreground-header-logo);
     font-size: var(--font-hero-logo);
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .header-links { gap: 1.5rem; }
