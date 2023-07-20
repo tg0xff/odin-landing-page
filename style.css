@@ -63,4 +63,6 @@ body > * { padding: 0 15%; }
     background-color: var(--background-button);
     font-size: var(--font-hero-secondary);
     font-weight: 700;
+    border: none;
+    border-radius: 0.2rem;
 }
