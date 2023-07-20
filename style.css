@@ -2,6 +2,11 @@
     font-family: Roboto, sans-serif;
     font-size: medium;
     box-sizing: border-box;
+
+    --foreground-header-logo: #f9faf8;
+    --foreground-hero-main: #f9faf8;
+    --foreground-hero-secondary: #f9faf8;
+    --background-hero: #1f2937;
 }
 
 ul {
@@ -17,6 +22,13 @@ body > * { padding: 0 15%; }
 .header,
 .header-links { display: flex; }
 
-.logo { flex: auto; }
+.logo {
+    flex: auto;
+    color: var(--foreground-header-logo);
+}
 
 .header-links { gap: 1.5rem; }
+
+.header-links > li > a { color: var(--foreground-hero-secondary); }
+
+.header { background-color: var(--background-hero); }
