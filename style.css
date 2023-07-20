@@ -7,6 +7,9 @@
     --foreground-hero-main: #f9faf8;
     --foreground-hero-secondary: #f9faf8;
     --background-hero: #1f2937;
+    --font-hero-logo: 1.5rem;
+    --font-hero-main: 3rem;
+    --font-hero-secondary: 1.125rem;
 }
 
 ul {
@@ -25,10 +28,15 @@ body > * { padding: 0 15%; }
 .logo {
     flex: auto;
     color: var(--foreground-header-logo);
+    font-size: var(--font-hero-logo);
+    font-weight: 700;
 }
 
 .header-links { gap: 1.5rem; }
 
-.header-links > li > a { color: var(--foreground-hero-secondary); }
+.header-links > li > a {
+    color: var(--foreground-hero-secondary);
+    font-size: var(--font-hero-secondary);
+}
 
 .header { background-color: var(--background-hero); }
