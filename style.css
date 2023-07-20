@@ -12,6 +12,8 @@ ul {
 
 a { text-decoration: none; }
 
+body > * { padding: 0 10%; }
+
 .header,
 .header-links { display: flex; }
 
