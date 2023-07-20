@@ -133,3 +133,8 @@ body > * { padding: 0 14.5%; }
     font-size: 1.15rem;
     color: var(--colour-3);
 }
+
+.quote-block {
+    color: var(--colour-1);
+    background-color: var(--colour-5);
+}
