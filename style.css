@@ -6,8 +6,10 @@
     --foreground-header-logo: #f9faf8;
     --foreground-hero-main: #f9faf8;
     --foreground-hero-secondary: #e5e7eb;
+    --foreground-placeholder: #edeeef;
     --background-hero: #1f2937;
     --background-button: #3882f6;
+    --background-placeholder: #6d747d;
     --font-hero-logo: 1.5rem;
     --font-hero-main: 3rem;
     --font-hero-secondary: 1.125rem;
@@ -55,6 +57,8 @@ body > * { padding: 0 15%; }
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--foreground-placeholder);
+    background-color: var(--background-placeholder);
 }
 
 .hero-header {
