@@ -23,7 +23,10 @@ a { text-decoration: none; }
 body > * { padding: 0 15%; }
 
 .header,
-.header-links { display: flex; }
+.header-links {
+    display: flex;
+    align-items: baseline;
+}
 
 .logo {
     flex: auto;
