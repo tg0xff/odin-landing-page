@@ -123,6 +123,7 @@ body > * { padding: 0 14.5%; }
     height: 10rem;
     border: 0.25rem solid var(--background-button);
     border-radius: 1rem;
+    margin-bottom: 0.3333rem;
 }
 
 .image-text {
