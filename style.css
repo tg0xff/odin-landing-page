@@ -174,9 +174,18 @@ body > * { padding: 0 14.5%; }
 
 .action-text { flex: auto; }
 
+.action-header {
+    font-size: var(--font-size-3);
+    font-weight: 700;
+}
+
+.action-body { font-size: var(--font-size-2); }
+
 .action-container > button {
     color: var(--colour-7);
     background-color: var(--colour-2);
     border: 0.15rem solid var(--colour-7);
     border-radius: 0.4rem;
+    font-size: var(--font-size-2);
+    font-weight: 700;
 }
