@@ -156,3 +156,12 @@ body > * { padding: 0 14.5%; }
     font-weight: 700;
     text-align: right;
 }
+
+.action-block { color: var(--colour-7); }
+
+.action-container { background-color: var(--colour-2); }
+
+.action-container > button {
+    color: var(--colour-7);
+    background-color: var(--colour-2);
+}
