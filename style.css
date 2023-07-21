@@ -157,11 +157,16 @@ body > * { padding: 0 14.5%; }
     text-align: right;
 }
 
-.action-block { color: var(--colour-7); }
+.action-block {
+    color: var(--colour-7);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
 
 .action-container {
     background-color: var(--colour-2);
     display: flex;
+    padding: 3rem 8rem;
 }
 
 .action-text { flex: auto; }
