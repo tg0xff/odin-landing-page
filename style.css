@@ -169,6 +169,7 @@ body > * { padding: 0 14.5%; }
     background-color: var(--colour-2);
     display: flex;
     padding: 3rem 8rem;
+    border-radius: 0.5rem;
 }
 
 .action-text { flex: auto; }
@@ -176,4 +177,6 @@ body > * { padding: 0 14.5%; }
 .action-container > button {
     color: var(--colour-7);
     background-color: var(--colour-2);
+    border: 0.15rem solid var(--colour-7);
+    border-radius: 0.4rem;
 }
